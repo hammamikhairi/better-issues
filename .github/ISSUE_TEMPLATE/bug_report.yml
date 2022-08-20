@@ -36,6 +36,16 @@ body:
          If applicable, add screenshots to help explain your problem.
     validations:
       required: false
+  - type: checkboxes
+    attributes:
+      label: Are you using the [latest release](https://github.com/elebumm/RedditVideoMakerBot/releases/latest) ?
+      description: >
+        Older versions of the project may contain some bugs, That's why we release new versions.
+        
+        (to avoid reporting a previously reported bug, try upgrading to the latest version or ask questions in our [discord server](https://discord.gg/swqtb7AsNQ).)
+      options:
+        - label: I'm using the latest release
+          required: true
   - type: textarea
     attributes:
       label: System Information
@@ -44,8 +54,6 @@ body:
         Operating System : [e.g. Windows 11]
 
         Python version : [e.g. Python 3.6]
-
-        App version / Branch [e.g. latest, V2.0, master, develop]
     validations:
       required: true
   - type: checkboxes
