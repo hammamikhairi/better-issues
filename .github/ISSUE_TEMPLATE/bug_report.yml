@@ -38,11 +38,11 @@ body:
       required: false
   - type: checkboxes
     attributes:
-      label: Are you using the [latest release](https://github.com/elebumm/RedditVideoMakerBot/releases/latest) ?
+      label: Are you using the latest release ?
       description: >
-        Older versions of the project may contain some bugs, That's why we release new versions.
+        Older versions of the project may contain some bugs, That's why we release [newer versions](https://github.com/elebumm/RedditVideoMakerBot/releases/latest).
         
-        (to avoid reporting a previously reported bug, try upgrading to the latest version or ask questions in our [discord server](https://discord.gg/swqtb7AsNQ).)
+        (to avoid reporting a previously solved bug, try upgrading to the latest version or ask questions in our [discord server](https://discord.gg/swqtb7AsNQ).)
       options:
         - label: I'm using the latest release
           required: true
